@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(182, 237, 164);
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+
+header h1 {
+    color: rgb(31, 5, 5);
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(218, 233, 237);
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+nav li {
+    border: 2px solid rgb(10, 10, 9);
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ba1d1d;
+}
+
+.content {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    flex: 2;
+    padding: 10px;
+}
+
+.sidebar {
+    flex: 1;
+    background: #e4e4e4;
+    padding: 10px;
+    
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 0 2em 0 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
